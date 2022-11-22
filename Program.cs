@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("welcome to line comparison computation");//master
+           /*Console.WriteLine("welcome to line comparison computation");*/          //master
+            Length length = new Length();
+            Length.callength();
+            Console.ReadKey();
         }
     }
 }
